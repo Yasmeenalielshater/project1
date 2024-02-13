@@ -1,0 +1,250 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+body{
+    background-color: #eee;
+     font-family: 'Lato', sans-serif;
+    margin-bottom: 50px;
+}
+    .header>ul{
+float: right;
+    list-style-type:none;
+    margin:12px;
+    overflow: hidden;
+
+}
+li{
+float: left;
+    }  
+li a{
+
+color:black;
+text-align:center;
+padding: 25px  25px;
+text-decoration:none;
+font-size: 18px;
+
+
+}
+
+  .header>  img{
+    width: 300px;
+    display:flex;
+    margin-left: 20px;
+    
+
+}
+h3{
+    display:block;
+    font-size: 1.5em;
+    margin-left:400px;
+font-weight: lighter;
+}
+form{
+    margin-left:500px;
+
+}
+#textbox{
+    border-width: 1px solid;
+    text-align: center;
+    
+}
+.btn{
+    text-align: center;
+    margin-left: 50px;
+    width:200 px;
+    height:25px;
+    background-color:rgb(255, 166, 0);
+    border :none;
+    font-weight:bold;
+    margin-bottom: 100px;
+}
+.btn:hover{
+    background-color:orangered ;
+
+}
+
+p{
+    display: inline-block;
+
+    width:500px;
+
+    margin-left:400px;
+     
+  
+}
+ 
+  
+   .icon1> img{
+    display: inline-block;
+    margin-left: 360px;
+     display:flex ;
+     flex-direction:row ;
+     text-align: center;
+     justify-content: center;
+     height: 25px;
+     margin-bottom: -45px;
+     
+    
+   }
+   .icon2> img{
+    height: 25px;
+     display:flex ;
+     flex-direction:row ;
+     margin-left: 360px;
+     display: inline-block;
+     margin-bottom: -45px;
+     
+    }
+
+     
+   .icon3> img{
+    height: 25px;
+     display:flex ;
+     flex-direction:row ;
+     margin-left: 360px;
+     display: inline-block;
+     margin-bottom: -45px; 
+
+     
+   }
+h4{
+margin-left: 400px;
+}
+
+#Howitworks {
+   
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+      
+     margin-top: 50px;
+
+  }
+  #Howitworks > iframe {
+    width: 600px;
+     
+  }
+  #pricing {
+   
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0;
+    
+    
+
+  
+  }
+  .product{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    justify-content: space-between;
+    width: calc(50% / 3);
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-left: 200px;
+     
+  }
+  
+ .product>h4{
+    margin-left: 0%;
+      
+  }
+  .product>button{
+ margin:15px 0;
+    border:none;
+    width: 100px;
+    height: 30px;
+
+  background-color: #f1c40f;
+  font-weight: 400;
+    
+  }
+  .product> button:hover{
+    background-color: orangered;
+  }
+  ol{
+    list-style-type:none;
+    margin:12px;
+    overflow: hidden;
+
+  }
+  .product > ol {
+    margin: 15px 0;
+  }
+  
+  .product > ol > li {
+    padding: 5px 0;}
+    .product > .level {
+        background-color: #ddd;
+        color: black;
+        padding: 15px 0;
+        width: 100%;
+        text-transform: uppercase;
+        font-weight: 700;
+      }
+      @media (max-width: 700px) {
+        #pricing {
+          flex-direction: column;
+        }
+        .product {
+          max-width: 200px;
+          width: 100%;
+          margin: 0 auto;
+          margin-bottom: 10px;
+        }
+      }
+      @media (min-width: 500px) {
+        #pricing {
+          flex-direction: column;
+        }
+        .product {
+          max-width: 200px;
+          width: 100%;
+          margin-top: 8px;
+          margin-bottom: 10px;
+        }
+      }
+
+        footer {
+            margin-top: 30px;
+            background-color: #ddd;
+            padding: 20px;
+            
+            
+
+    
+          }
+          
+          footer > ul {
+            
+            display: flex;
+            justify-content :end;
+            list-style-type:none;
+            margin:12px;
+            overflow: hidden;
+            font-size: small;
+
+          }
+          
+          footer >  li {
+            padding: 0 10px;
+            font-size: small;
+          }
+          
+         span {
+            
+            display: flex;
+            justify-content: end;
+             font-size: small;
+            color: #444;
+          }
+        
+    
